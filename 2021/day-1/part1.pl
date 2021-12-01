@@ -9,4 +9,4 @@ foreach (<>) {
 	 $last = $_;
 }
 
-print($incs);
+say $incs;

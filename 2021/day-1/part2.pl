@@ -9,7 +9,7 @@ my $last;
 foreach (@input) {
 	state $index = 0;
 	if ($index > 2) {
-		my $window = sum(@input[($index - 2)..$index]) . "\n";
+		my $window = sum(@input[($index - 2)..$index]);
 		if ($window > $last) {
 			$incs += 1;
 		}
