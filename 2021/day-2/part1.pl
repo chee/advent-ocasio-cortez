@@ -20,6 +20,4 @@ for (<>) {
 	}
 }
 
-say $horizont;
-say $depth;
 say $horizont * $depth;
